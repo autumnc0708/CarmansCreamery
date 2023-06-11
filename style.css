@@ -6,7 +6,7 @@ body, html {
 .bgimg {
   background-position: center;
   background-size: cover;
-  background-image: image(image1.jpg);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRCVAvpT_2XdeP72hw8DEf9iLJaHwPLNQVJzmEe9q1RhFrSG-4fRYCLsO9SZwkJXG-eCQ:https://lookaside.fbsbx.com/lookaside/crawler/media/%3Fmedia_id%3D244217904860033&usqp=CAU);
   min-height: 75%;
 }
 
