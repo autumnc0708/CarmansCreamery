@@ -1,28 +1,23 @@
-body, html {
-  height: 100%;
-  font-family: "Inconsolata", sans-serif;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.bgimg {
-  background-position: center;
-  background-size: cover;
-  background-image: url("image1.jpg");
-  min-height: 75%;
+li {
+  float: left;
 }
 
-.menu {
-  display: none;
-}
-
-.button {
-  background-color: #4CAF50;
-  border: none;
+li a {
+  display: block;
   color: white;
-  padding: 15px 32px;
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+}
+
+li a:hover {
+  background-color: #111;
 }
